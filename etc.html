@@ -174,31 +174,7 @@ p{margin:0 0 14px}
 <body>
 <div class="page">
 <nav class="nav"><a href="./">CV</a><a href="portfolio.html">포트폴리오</a><a href="etc.html" class="on">기타</a><span class="sp"></span><span class="mono">정윤걸 · 2026-09-14</span></nav>
-<header class="mast" style="grid-template-columns:1fr auto"><div><span class="eyebrow">Appendix</span><h1 style="font-size:32px">기타</h1><div class="sub">정윤걸 · 그 외 프로젝트, 수상 전체 목록, 기술 역량, 과제 관리</div></div><div class="contact">ykjung0917@kakao.com<br><a href="https://github.com/jhon-rjf">github.com/jhon-rjf</a></div></header><section class="sec"><div class="label"><span class="eyebrow">1</span><h2>AI Tattoo</h2></div><div class="body"><article class="exp">
-      <h3>다중 딥러닝 모델 체이닝 키오스크</h3>
-      <div class="meta">2025.05 ~ 2025.12 · 캡스톤 5인팀 · PM, 인프라/보안, LLM 결과물 생성</div>
-      <ul class="cvl">
-        <li>얼굴 사진 한 장으로 닮은 동물을 분류하고 특징을 반영한 라인 타투 도안을 생성하는 키오스크 서비스</li>
-        <li>4단계 체이닝: MediaPipe FaceDetection/FaceMesh 얼굴 특징 추출, Enhanced ResNet34 동물 분류(남 9종·여 6종), 특징의 자연어 프롬프트 변환, Gemini 2.0 멀티모달 도안 생성</li>
-        <li>키오스크 + On-prem 서버 7개월 무중단 운영, 분당 10회 이상 동시 요청 처리, API 비용 총 105달러</li>
-      </ul>
-      <div class="outcome">졸업작품전시회 최우수상, Co-Ed 캡스톤 1등, 한국테크노파크진흥회 본선 수상, 컨소시엄 예선 은상, KIPS ACK 2025 제1저자 논문 [4]</div>
-    </article></div></section>
-<section class="sec"><div class="label"><span class="eyebrow">2</span><h2>HMPH</h2></div><div class="body"><article class="exp">
-      <h3>GCP 풀스택 군중 밀집도 분석</h3>
-      <div class="meta">2024.06 ~ 2024.10 · 산학협력 (Google Cloud AI 인재양성과정) · PM, Vision, 클라우드 백엔드</div>
-      <ul class="cvl">
-        <li>GCP 8개 서비스(Pub/Sub, Dataflow, Vertex AI, BigQuery, Gemini, Looker Studio 등)로 영상 수집, 객체탐지, 위험도 분석, 경고 생성 파이프라인 구축, Raspberry Pi CCTV 시뮬레이션</li>
-        <li>정확도·지연시간·오탐·미탐 검증, VM 기반에서 Vertex AI 중심으로 전환해 비용 절감</li>
-      </ul>
-      <div class="outcome">AI 융합 혁신 기술대회 Best AI Convergence Award(최우수상), 졸업작품전시회 우수작품상. 코드 공개: <a href="https://github.com/jhon-rjf/GCP_HMPH">github.com/jhon-rjf/GCP_HMPH</a></div>
-    </article></div></section>
-<section class="sec"><div class="label"><span class="eyebrow">3</span><h2>과제 관리</h2></div><div class="body"><article class="exp">
-      <h3>초거대 AI 방산 플랫폼 과제</h3>
-      <div class="meta">주관 · 3차년도 · 담당자</div>
-      <ul class="cvl"><li>과제 관리 담당</li></ul>
-    </article></div></section>
-<section class="sec"><div class="label"><span class="eyebrow">4</span><h2>기타 프로젝트</h2></div><div class="body"><ul style="margin:0;padding-left:18px">
+<header class="mast" style="grid-template-columns:1fr auto"><div><span class="eyebrow">Appendix</span><h1 style="font-size:32px">기타</h1><div class="sub">정윤걸 · 그 외 프로젝트, 수상 전체 목록, 기술 역량</div></div><div class="contact">ykjung0917@kakao.com<br><a href="https://github.com/jhon-rjf">github.com/jhon-rjf</a></div></header><section class="sec"><div class="label"><span class="eyebrow">1</span><h2>기타 프로젝트</h2></div><div class="body"><ul style="margin:0;padding-left:18px">
       <li>협력사 주·월간 업무보고 시스템 (2026.02 ~ 운영중, 1인 설계·구축·운영): 65 API, 17 테이블, HWPX·Word·Excel 3종 자동 생성, 3개 부서 14명 사용, API p99 4ms 미만, 성공률 99.85%</li>
       <li>Self-healing RPA 워크플로 엔진 (2026.02 ~ 05): 그래프 BFS 실행, 선택자에서 Vision, LLM 복구 계획으로 이어지는 다층 복구 전략, 반복·라운드 제한 안전장치. 운영팀 인계</li>
       <li>S-Watch 1:N 구조 재설계: 워치-서버-웹 1:1 구조를 다중 사용자 환경으로 재설계, 1회용 PIN 매칭, 다중 센서 실시간 대시보드</li>
@@ -206,7 +182,7 @@ p{margin:0 0 14px}
       <li>IoT FallDetect (PM): 2-RPi 분리 구조, PTZ 추적, 낙상 감지에서 임시 비밀번호 발급, 도어락 해제까지 end-to-end 검증</li>
       <li>사이드: openclaw 개인 AI 어시스턴트(이중화 운영), Hermes Agent 장기기억 패턴 분석·적용, Claude 멀티에이전트 개발 하니스 구성, <a href="https://github.com/jhon-rjf/obsidian-hwp-writer">Obsidian HWP 플러그인</a> 공개</li>
     </ul></div></section>
-<section class="sec" id="awards"><div class="label"><span class="eyebrow">5</span><h2>수상</h2></div><div class="body wide awards">
+<section class="sec" id="awards"><div class="label"><span class="eyebrow">2</span><h2>수상</h2></div><div class="body wide awards">
     <div>
       <h3>학회 우수논문상 (5건)</h3>
       <ul>
@@ -232,14 +208,14 @@ p{margin:0 0 14px}
     </div>
   </div>
 </section>
-<section class="sec" id="skills"><div class="label"><span class="eyebrow">6</span><h2>기술 역량</h2></div><div class="body wide"><table class="skills">
+<section class="sec" id="skills"><div class="label"><span class="eyebrow">3</span><h2>기술 역량</h2></div><div class="body wide"><table class="skills">
       <tr><th>LLM / 에이전트</th><td>RAG (LangChain, ChromaDB, bge-m3), ReAct·Tool Calling 직접 구현, MCP, LangGraph, QLoRA (TRL, Unsloth, PEFT, 70B 4-bit), RAGAS 평가, vLLM·Ollama 서빙</td></tr>
       <tr><th>Computer Vision</th><td>YOLOv5/v8/v11, ByteTrack, 단안·스테레오 거리 추정, 카메라 캘리브레이션·ground plane 기하, MoGe-2 metric depth, TensorRT 경량화, OpenCV, MediaPipe</td></tr>
       <tr><th>영상 복원</th><td>다크채널 프라이어, Koschmieder 산란 모델, 위너 디컨볼루션, NIQE/PSNR/SSIM 평가(pyiqa)</td></tr>
       <tr><th>Backend / 인프라</th><td>Python (FastAPI, Flask), Java (Spring Boot), PostgreSQL, TimescaleDB, MariaDB, InfluxDB, Redis, MinIO, Docker, Linux 운영 서버, GitHub Actions CI/CD, n8n</td></tr>
       <tr><th>Cloud</th><td>GCP (Vertex AI, BigQuery, Pub/Sub, Dataflow, Cloud Storage, Compute Engine, Looker Studio)</td></tr>
       <tr><th>에지 / IoT</th><td>Jetson Nano, Raspberry Pi 4/5, Arduino, ESP8266, TCP/IP·WiFi·Zigbee·Bluetooth</td></tr>
-      <tr><th>시뮬레이션</th><td>Unity 6 합성 데이터셋 생성, 공정 시뮬레이터 구현</td></tr>
+      <tr><th>시뮬레이션</th><td>Unity 6 합성 데이터셋 생성, 시뮬레이터 구현</td></tr>
       <tr><th>Frontend</th><td>Vue 3, React Native + Expo</td></tr>
     </table></div></section>
 <footer class="foot"><span><a href="./">CV</a> · <a href="portfolio.html">포트폴리오</a></span><span class="mono">정윤걸 · 2026-09-14</span></footer>
