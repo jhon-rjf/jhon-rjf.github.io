@@ -163,10 +163,11 @@ p{margin:0 0 14px}
 .oneline{margin:0;padding:0;list-style:none}
 .oneline li{display:grid;grid-template-columns:230px 1fr;gap:12px;padding:8px 0;border-bottom:1px solid var(--rule);font-size:14px}
 .oneline li b{font-weight:500}
-.sum{font-size:14px}
-.sum b{font-weight:500;color:var(--ink-3);font-size:12.5px;letter-spacing:.04em;display:inline-block;width:110px}
+.sum{font-size:14px;display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:start;margin:0;padding:8px 0;border-bottom:1px solid var(--rule)}
+.sum:last-child{border-bottom:0}
+.sum b{font-weight:500;color:var(--ink-3);font-size:12.5px;letter-spacing:.04em;padding-top:2px}
 .exp:target{background:var(--tint);padding:10px 14px;margin-left:-14px;margin-right:-14px}
-@media (max-width:820px){.oneline li{grid-template-columns:1fr}.key td:first-child{width:auto}}
+@media (max-width:820px){.oneline li{grid-template-columns:1fr}.key td:first-child{width:auto}.sum{grid-template-columns:1fr;gap:4px}}
 @media print{.nav{display:none}.page{padding:0}a{border-bottom:0;color:inherit}}
 </style>
 <style>[hidden]{display:none!important}img{max-width:100%}</style>
@@ -232,9 +233,9 @@ p{margin:0 0 14px}
 <li><b>소형 언어 모델의 효율적 학습·추론</b><span>파라미터 효율 파인튜닝(LoRA, QLoRA), 양자화 추론, 엣지 환경에서 동작하는 에이전트</span></li>
 </ul>
 <p class="muted small" style="margin-top:12px">관련 경험: Jetson Nano TensorRT 변환(FPS 1.6배), Llama-3.3-70B 4-bit QLoRA 파인튜닝, 단안·스테레오 거리 추정 비교</p></div></section>
-<section class="sec"><div class="label"><span class="eyebrow">5</span><h2>수상 · 기술 요약</h2></div><div class="body wide"><p class="sum"><b>학회 우수논문상</b> KMMS 2024 BEST PAPER AWARD, KIIT 2024 금상 1·동상 3 (5건)</p>
-<p class="sum"><b>대회·전시</b> 테크노파크진흥회 본선, Co-Ed 캡스톤 1등, 컨소시엄 은상, 졸업작품전시회 최우수상·우수작품상, AI 융합 기술대회 최우수상, IoT 경진대회 최우수상, 낙상감지 우수상 (8건) <a href="etc.html#awards">전체 목록</a></p>
-<p class="sum"><b>기술</b> PyTorch, YOLO, TensorRT, LangChain, vLLM, QLoRA(TRL·Unsloth·PEFT), LangGraph, FastAPI, PostgreSQL, Docker, GCP, Jetson Nano, Unity <a href="etc.html#skills">전체 표</a></p></div></section>
+<section class="sec"><div class="label"><span class="eyebrow">5</span><h2>수상 · 기술 요약</h2></div><div class="body wide"><p class="sum"><b>학회 우수논문상</b><span>KMMS 2024 BEST PAPER AWARD, KIIT 2024 금상 1·동상 3 (5건)</span></p>
+<p class="sum"><b>대회·전시</b><span>테크노파크진흥회 본선, Co-Ed 캡스톤 1등, 컨소시엄 은상, 졸업작품전시회 최우수상·우수작품상, AI 융합 기술대회 최우수상, IoT 경진대회 최우수상, 낙상감지 우수상 (8건) <a href="etc.html#awards">전체 목록</a></span></p>
+<p class="sum"><b>기술</b><span>PyTorch, YOLO, TensorRT, LangChain, vLLM, QLoRA(TRL·Unsloth·PEFT), LangGraph, FastAPI, PostgreSQL, Docker, GCP, Jetson Nano, Unity <a href="etc.html#skills">전체 표</a></span></p></div></section>
 <footer class="foot"><span>상세 내용은 <a href="portfolio.html">포트폴리오</a>, 그 외 항목은 <a href="etc.html">기타</a> 페이지</span><span class="mono">정윤걸 · 2026-09-14</span></footer>
 </div>
 </body>
